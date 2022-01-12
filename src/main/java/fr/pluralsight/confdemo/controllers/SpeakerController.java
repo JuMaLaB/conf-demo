@@ -1,7 +1,6 @@
 package fr.pluralsight.confdemo.controllers;
 
 import java.util.List;
-// import javax.persistence.*;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
