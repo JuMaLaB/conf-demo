@@ -16,7 +16,7 @@ public class HomeController {
 
   @GetMapping
   @RequestMapping("/")
-  public Map getStatus() {
+  public Map<String, String> getStatus() {
     Map<String, String> map = new HashMap<String, String>();
     map.put("app-version", appVersion);
     return map;
